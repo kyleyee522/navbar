@@ -1,0 +1,24 @@
+.navbar {
+	display: flex;
+	padding: 40px;
+	max-width: 1700px;
+	align-items: center;
+}
+
+.navbar a {
+	margin-left: 60px;
+	margin: 0 auto;
+
+	/* padding: 0px 0px 0px 150px; */
+}
+
+.links {
+	font-size: 22px;
+	padding: 0px 0px 0px 150px;
+	margin-left: -175px;
+}
+
+.links a {
+	padding: 0px 0px 0px 70px;
+	margin-right: 110px;
+}
