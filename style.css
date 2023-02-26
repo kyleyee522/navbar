@@ -1,24 +1,87 @@
 .navbar {
 	display: flex;
 	padding: 40px;
-	max-width: 1700px;
+	max-width: 1920px;
 	align-items: center;
 }
 
 .navbar a {
-	margin-left: 60px;
 	margin: 0 auto;
+}
 
-	/* padding: 0px 0px 0px 150px; */
+.navbar#logo {
+	padding-right: 90px;
 }
 
 .links {
 	font-size: 22px;
-	padding: 0px 0px 0px 150px;
-	margin-left: -175px;
+	padding: 0px 0px 0px 200px;
+	margin-left: -200px;
+	margin-right: 200px;
 }
 
 .links a {
-	padding: 0px 0px 0px 70px;
-	margin-right: 110px;
+	margin-right: 100px;
+	color: black;
+}
+
+#coverimage {
+	height: 200px;
+	width: 1920px;
+	background: url('rocket.jpg') center;
+	background-size: cover;
+	min-width: 100%;
+	min-height: 75%;
+	left: 0;
+	position: fixed;
+}
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+
+.box {
+	display: block;
+	width: 1920px;
+	background-color: rgba(0, 0, 0, 0.5);
+	min-width: 100%;
+	min-height: 100%;
+	left: 0;
+}
+
+.text {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 20%;
+	padding-bottom: 40px;
+}
+
+#bigtext {
+	font-size: 58px;
+	padding-top: 10%;
+}
+
+#slogan {
+	font-size: 30px;
+}
+
+#contactus {
+	margin-left: 20%;
+	background-color: white;
+	border: none;
+	color: black;
+	text-align: center;
+	display: inline-block;
+	padding: 12px 38px;
+	font-size: 24px;
+	/* font-family: Arial, Helvetica, sans-serif; */
 }
